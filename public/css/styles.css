@@ -1,0 +1,71 @@
+:root {
+    --marvel-red: #e23636;
+    --marvel-grey: #504a4a;
+    --marvel-blue: #518cca;
+    --marvel-orange: #f78f3f;
+}
+@font-face {
+    font-family: logoFont;
+    src: url(/fonts/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: customFont;
+    src: url(/fonts/Beton.otf);
+}
+body{
+    margin: auto;
+    background-color: var(--marvel-red);
+    font-family: customFont;
+    font-size:150%;
+}
+
+h2{
+    font-family: customFont;
+    text-align: center;
+    font-size: 200%;
+}
+
+
+.logo{
+    padding-top: 4vh;
+    font-family: logoFont;
+    font-size: 300%;
+    color:black;
+    padding-bottom: 4vh;  
+    margin: auto;
+    text-align: center;
+
+}
+
+.phase-ctn{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.movie-ctn{
+    width:90%;
+    height:90%;
+    background: var(--marvel-grey);
+    padding:20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: auto;    
+    margin-bottom: 2vh;
+}
+
+img{
+    height: 90%;
+    width: 100%;
+}
+.learn-more-ctn{
+    text-decoration: none;
+}
+
+.title-ctn{
+    color: white;
+}
+.year-ctn{
+    color:white;
+}

@@ -6,7 +6,8 @@
                 cache.addAll([
                     '/js/app.js',
                     '/css/styles.css',
-                    'http://localhost:3000/'
+                    // 'http://localhost:3000/',
+                    // 'http://localhost:3000/index',
                 ]);
             })
      );

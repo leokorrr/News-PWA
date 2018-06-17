@@ -12,6 +12,10 @@ app.get('/', function(req, res){
     res.render('index')
   });
 
+app.get('/index', function(req, res){
+  res.render('index')
+});
+
 // listen to port
 app.listen(3000);
 console.log('Server is listening 3000 port');
